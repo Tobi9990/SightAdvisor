@@ -1,6 +1,6 @@
 # Tour-Guide
 # C# WPF Anwendung
-Die Sehenswürdigkeiten können an bestimmten Orten im Stadtplan eingetragen werden. 
+Die Sehenswürdigkeiten können an verschiedenen Orten im Stadtplan eingetragen werden. 
 Bei einer Eintragung werden die Sehenswürdigkeiten auf der App aktualisiert werden.
 
 # Android Applikation
