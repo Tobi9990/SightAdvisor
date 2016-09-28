@@ -1,15 +1,13 @@
 # Tour-Guide
-[![modell](https://github.com/Tobi9990/Tour-Guide/raw/master/img/modell.png)](#features)
 ### WPF Anwendung
 Es wird eine Karte zur Verfügung gestellt, die dafür dient, dass der Administrator auf der Karte eine bestimmte Sehenswürdigkeit mit einer gewissen Information eintragen kann. Die Sehenswürdigkeit wird inklusive Koordinaten und Beschreibung in die Datenbanktabelle eingetragen. 
 ### Android Applikation
 Dem Benutzer ist es erlaubt die Karte mit den eingetragenen Sehenswürdigkeiten zu sehen. Jedoch wird die Information der Sehenswürdigkeit erst angezeigt, wenn sich der Benutzer vor dieser Sehenswürdigkeit befindet. 
 ### Technologien
-<dl>
-  <dt>WPF Anwendung </dt>
-  <dd>IDE: Visual Studio </dd>
-  <dd>Programmiersprache: C#  </dd>
-</dl>
+#### WPF Anwendung 
+IDE: Visual Studio
+Programmiersprache: C#
+
 <dl>
   <dt>Datenbank</dt>
   <dd>IDE: SQL Developer</dd>
