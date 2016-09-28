@@ -1,5 +1,5 @@
 # Tour-Guide
-[!(https://github.com/Tobi9990/Tour-Guide/blob/master/Modell.png)]
+![Alt text](./modell.png?raw=true "Optional Title")
 ### WPF Anwendung
 Es wird eine Karte zur Verfügung gestellt, die dafür dient, dass der Administrator auf der Karte eine bestimmte Sehenswürdigkeit mit einer gewissen Information eintragen kann. Die Sehenswürdigkeit wird inklusive Koordinaten und Beschreibung in die Datenbanktabelle eingetragen. 
 ### Android Applikation
