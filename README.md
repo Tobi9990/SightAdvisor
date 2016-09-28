@@ -4,17 +4,14 @@ Es wird eine Karte zur Verfügung gestellt, die dafür dient, dass der Administr
 ### Android Applikation
 Dem Benutzer ist es erlaubt die Karte mit den eingetragenen Sehenswürdigkeiten zu sehen. Jedoch wird die Information der Sehenswürdigkeit erst angezeigt, wenn sich der Benutzer vor dieser Sehenswürdigkeit befindet. 
 ### Technologien
-WPF Anwendung 
-•	IDE: Visual Studio 
-•	Programmiersprache: C# 
-Datenbank
-•	IDE: SQL Developer
-•	Programmiersprache: SQL
-Android Anwendung:
-•	IDE: Android Studio
-•	Programmiersprache: Java
 
-[alt text](https://github.com/Tobi9990/Tour-Guide/blob/master/Modell.PNG"Logo Title Text 1")
+<dl>
+  <dt>WPF Anwendung </dt>
+  <dd>IDE: Visual Studio </dd>
+  <dd>Programmiersprache: C#  </dd>
+</dl>
+
+
 
 
 
