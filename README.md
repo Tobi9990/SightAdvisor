@@ -11,11 +11,10 @@ Dem Benutzer ist es erlaubt die Karte mit den eingetragenen Sehenswürdigkeiten 
 </dl>
 <dl>
   <dt>Datenbank</dt>
-  <dd>
-      IDE: SQL Developer
   
-      Programmiersprache: SQL 
-  </dd>
+  IDE: SQL Developer
+  
+  Programmiersprache: SQL 
 </dl>
 <dl>
   <dt>Android Applikation </dt>
