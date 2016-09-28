@@ -1,10 +1,19 @@
 # Tour-Guide
-# C# WPF Anwendung
-Die Sehenswürdigkeiten können an verschiedenen Orten im Stadtplan eingetragen werden. 
-Bei einer Eintragung werden die Sehenswürdigkeiten auf der App aktualisiert werden.
+# WPF Anwendung:
+Es wird eine Karte zur Verfügung gestellt, die dafür dient, dass der Administrator auf der Karte eine bestimmte Sehenswürdigkeit mit einer gewissen Information eintragen kann. 
+# Android Applikation:
+Dem Benutzer ist es erlaubt die Karte mit den eingetragenen Sehenswürdigkeiten zu sehen. Jedoch wird die Information der Sehenswürdigkeit erst angezeigt, wenn sich der Benutzer vor dieser Sehenswürdigkeit befindet. 
+# Technologien
+WPF Anwendung 
+•	IDE: Visual Studio 
+•	Programmiersprache: C# 
+Datenbank
+•	IDE: SQL Developer
+•	Programmiersprache: SQL
+Android Anwendung:
+•	IDE: Android Studio
+•	Programmiersprache: Java
 
-# Android Applikation
-Auf einem Stadtplan sind bestimmte Sehenswürdigkeiten mit bestimmten Koordinaten festgelegt. 
-Mit der App kann man jederzeit die Sehenswürdigkeiten auf dem Stadtplan in der Nähe anzeigen lassen. 
-Kommt man zu einer dieser Sehenswürdigkeiten erscheint dazu ein kurzer Bericht.  
+
+
 
