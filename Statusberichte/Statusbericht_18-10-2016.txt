@@ -1,6 +1,6 @@
 Erledigte Aufgaben:
 Zuteilung der Arbeitsteilung
-Definition der Aufgabenpakete
 
 Austehende Aufgaben:
+Definition der Aufgabenpakete
 Logisches und Physisches Modell
