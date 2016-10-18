@@ -20,7 +20,7 @@ Dem Benutzer ist es erlaubt die Karte mit den eingetragenen Sehenswürdigkeiten 
   <dd>Programmiersprache: Java  </dd>
 </dl>
 
-### Datenbank_Modelle
+### Datenbank Modelle
 [Datenbank_Modelle](https://github.com/Tobi9990/TourAdvisor/wiki/Datenbank_Modelle)
 
 
