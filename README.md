@@ -21,7 +21,7 @@ Dem Benutzer ist es erlaubt die Karte mit den eingetragenen Sehenswürdigkeiten 
 </dl>
 
 ### Datenbank_Modelle
-[https://github.com/Tobi9990/TourAdvisor/wiki/Datenbank_Modelle](Datenbank_Modelle)
+[Datenbank_Modelle](https://github.com/Tobi9990/TourAdvisor/wiki/Datenbank_Modelle)
 
 
 
