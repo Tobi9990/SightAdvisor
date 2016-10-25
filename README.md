@@ -1,4 +1,8 @@
 # TourAdvisor
+
+### Wiki
+[Wiki](https://github.com/Tobi9990/TourAdvisor/wiki)
+
 ### WPF Anwendung
 Es wird eine Karte zur Verfügung gestellt, die dafür dient, dass der Administrator auf der Karte eine bestimmte Sehenswürdigkeit mit einer gewissen Information eintragen kann. Die Sehenswürdigkeit wird inklusive Koordinaten und Beschreibung in die Datenbanktabelle eingetragen. 
 ### Android Applikation
@@ -20,8 +24,7 @@ Dem Benutzer ist es erlaubt die Karte mit den eingetragenen Sehenswürdigkeiten 
   <dd>Programmiersprache: Java  </dd>
 </dl>
 
-### Datenbank Modelle
-[Datenbank_Modelle](https://github.com/Tobi9990/TourAdvisor/wiki/Datenbank_Modelle)
+
 
 
 
