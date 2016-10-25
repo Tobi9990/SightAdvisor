@@ -1,0 +1,9 @@
+Egger:
+Definition der Aufgabenpakete
+Logisches Modell
+Physisches Modell (Oracle Spatial)
+
+Hamzic:
+Projektanforderung überarbeiten
+Überarbeitung des konzeptionellen Modells
+Physisches Modell (Tabellen erstellen)
