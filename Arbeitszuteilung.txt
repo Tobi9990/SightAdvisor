@@ -1,9 +1,0 @@
-Egger:
-Definition der Aufgabenpakete             erledigt
-Logisches Modell                          erledigt
-Physisches Modell (Oracle Spatial)
-
-Hamzic:
-Projektanforderung überarbeiten           erledigt
-Überarbeitung des konzeptionellen Modells erledigt
-Physisches Modell (Tabellen erstellen)
