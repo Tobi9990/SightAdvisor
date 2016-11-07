@@ -1,8 +1,0 @@
-Konzeptionelles Modell wurde erstellt.
-
-Austehende Aufgaben:
-Logisches und Physisches Modell
-Genaue Definition unserer Aufgaben bestimmen (Aufgabenpakete)
-Regelung der Arbeitsteilung
-
-Mock-Up wurde vorgearbeitet.
