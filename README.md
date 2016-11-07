@@ -1,12 +1,12 @@
 # TourAdvisor
-
 ### [Wiki] (https://github.com/Tobi9990/TourAdvisor/wiki)
 
-### WPF Anwendung
+### Projektanforderung
+## WPF Anwendung
 Es wird eine Karte zur Verfügung gestellt, die dafür dient, dass der Administrator auf der Karte eine bestimmte Sehenswürdigkeit mit einer gewissen Information eintragen kann. Die Sehenswürdigkeit wird inklusive Koordinaten und Beschreibung in die Datenbanktabelle eingetragen. 
-### Android Applikation
+## Android Applikation
 Dem Benutzer ist es erlaubt die Karte mit den eingetragenen Sehenswürdigkeiten zu sehen. Jedoch wird die Information der Sehenswürdigkeit erst angezeigt, wenn sich der Benutzer vor dieser Sehenswürdigkeit befindet. 
-### Technologien
+## Technologien
 <dl>
   <dt> WPF Anwendung </dt>
   <dd>IDE: Visual Studio</dd>
