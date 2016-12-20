@@ -1,6 +1,7 @@
 ﻿using Stadtplanverwaltung.Controller;
 using System;
 using System.Collections.Generic;
+using System.Data;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -22,53 +23,92 @@ namespace Stadtplanverwaltung
     public partial class AdminStadtplanverwaltung : Window
     {
         private DialogBox box;
-        private string info;
-        private double coordinateX;
-        private double coordinateY;
+        private int swid;
+        private string swName;
+        private string description;
 
         public AdminStadtplanverwaltung()
         {
             InitializeComponent();
 
-            StadplanverwaltungManager.DrawStrassenabschnitte(canvasMap);
-            //StadplanverwaltungManager.DrawSehenswuerdigkeiten(canvasMap);
-        }
-
-        private void setInfo(string inf)
-        {
-            this.info = inf;
-        }
-
-        private void setCoordinateX(double x)
-        {
-            this.coordinateX = x;
-        }
-
-        private void setCoordinateY(double y)
-        {
-            this.coordinateY = y;
-        }
-
-        private async void canvasMap_MouseLeftButtonUp(object sender, MouseButtonEventArgs e)
-        {
-            box = new DialogBox();
-            box.Show();
-
-            while (box.IsVisible)
+            try
             {
-                await Task.Delay(1000);
+                StadplanverwaltungManager.GetSehenswuerdigkeiten(dataGridPoi);
+                //StadplanverwaltungManager.GetStrassenabschnitte(canvasMap);
+                //StadplanverwaltungManager.DrawSehenswuerdigkeiten(canvasMap);
             }
-
-            setInfo(box.getInfo());
-            setCoordinateX(Mouse.GetPosition(canvasMap).X);
-            setCoordinateY(Mouse.GetPosition(canvasMap).Y);
-            btnSave.IsEnabled = true;
+            catch (Exception ex)
+            {
+                MessageBox.Show("An Error occured: " + ex.Message);
+            }  
         }
 
-        private async void btnSave_Click(object sender, RoutedEventArgs e)
+        private void canvasMap_MouseLeftButtonUp(object sender, MouseButtonEventArgs e)
         {
-            StadplanverwaltungManager.AddSehenswuerdigkeit(txtBoxName.Text, coordinateX, coordinateY, info);
-            await Task.Delay(1000);
+            try
+            {
+                box = new DialogBox();
+                box.setCoordinateX(Mouse.GetPosition(canvasMap).X);
+                box.setCoordinateY(Mouse.GetPosition(canvasMap).Y);
+                box.Show();
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("An Error occured: " + ex.Message);
+            }      
+        }
+
+        private void btnUpdate_Click(object sender, RoutedEventArgs e)
+        {
+            try
+            {
+                DataRowView dataRow = (DataRowView)dataGridPoi.SelectedItem;
+                swid =  Convert.ToInt32(dataRow.Row.ItemArray[0]);
+                swName = dataRow.Row.ItemArray[1].ToString();
+                description = dataRow.Row.ItemArray[2].ToString();
+
+                box = new DialogBox();
+                box.UpdateDescription(swid, swName, description);
+                box.Show();
+
+                StadplanverwaltungManager.GetSehenswuerdigkeiten(dataGridPoi);
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("An Error occured: " + ex.Message);
+            }   
+        }
+
+        private void btnDelete_Click(object sender, RoutedEventArgs e)
+        {
+            try
+            {
+                DataRowView dataRow = (DataRowView)dataGridPoi.SelectedItem;
+                swid = Convert.ToInt32(dataRow.Row.ItemArray[0]);
+
+                StadplanverwaltungManager.DeleteSehenswurdigkeit(swid);
+                StadplanverwaltungManager.GetSehenswuerdigkeiten(dataGridPoi);
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("An Error occured: " + ex.Message);
+            }   
+        }
+
+        private void btnHelp_Click(object sender, RoutedEventArgs e)
+        {
+            try
+            {
+                MessageBox.Show("Welcome to the city map administration\n "
+                           + "You can do the following things:\n "
+                           + "1. Adding a point of interest by clicking on the map and add a description and name to it\n"
+                           + "2. Selecting an existing point of interest from the Data Grid and changing the description\n"
+                           + "3. Deleting an existing point of interest from the Data Grid and deleting it\n");
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("An Error occured: " + ex.Message);
+            }  
         }
     }
 }

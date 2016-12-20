@@ -57,7 +57,7 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="DialogBox.xaml">
+    <Page Include="PoiDialogBox.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -75,8 +75,8 @@
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="Controller\StadplanverwaltungManager.cs" />
-    <Compile Include="DialogBox.xaml.cs">
-      <DependentUpon>DialogBox.xaml</DependentUpon>
+    <Compile Include="PoiDialogBox.xaml.cs">
+      <DependentUpon>PoiDialogBox.xaml</DependentUpon>
     </Compile>
     <Compile Include="MainWindow.xaml.cs">
       <DependentUpon>MainWindow.xaml</DependentUpon>
@@ -110,7 +110,12 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Resource Include="Pictures\GoogleMapVillach.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Pictures\help_page_sign.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

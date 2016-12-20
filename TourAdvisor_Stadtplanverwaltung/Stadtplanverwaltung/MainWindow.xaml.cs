@@ -28,14 +28,18 @@ namespace Stadtplanverwaltung
 
         private void btnLogin_Click(object sender, RoutedEventArgs e)
         {
-            if (passwordBox.Password == "")
-            {
-                MessageBox.Show("Please provide an Admin Password");
-            }
-            else
-            {
-                AdminManager.CheckAdminLogin(passwordBox.Password);
-               // MessageBox.Show(db.getMessage());
+            try
+            {            
+                if (passwordBox.Password == "")
+                {
+                    MessageBox.Show("Please provide an Admin Password");
+                }
+                else
+                {
+                    AdminManager.CheckAdminLogin(passwordBox.Password);                   
+                }
+            } catch (Exception ex) {
+                MessageBox.Show("An error occured: " + ex.Message);
             }
         }
     }
