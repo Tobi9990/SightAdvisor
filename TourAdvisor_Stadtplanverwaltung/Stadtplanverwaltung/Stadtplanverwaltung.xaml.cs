@@ -43,7 +43,7 @@ namespace Stadtplanverwaltung
             }  
         }
 
-        private void canvasMap_MouseLeftButtonUp(object sender, MouseButtonEventArgs e)
+        private async void canvasMap_MouseLeftButtonUp(object sender, MouseButtonEventArgs e)
         {
             try
             {
@@ -51,6 +51,13 @@ namespace Stadtplanverwaltung
                 box.setCoordinateX(Mouse.GetPosition(canvasMap).X);
                 box.setCoordinateY(Mouse.GetPosition(canvasMap).Y);
                 box.Show();
+
+                while (box.IsVisible)
+                {
+                    await Task.Delay(500);
+                }
+
+                StadplanverwaltungManager.GetSehenswuerdigkeiten(dataGridPoi);
             }
             catch (Exception ex)
             {
@@ -58,18 +65,22 @@ namespace Stadtplanverwaltung
             }      
         }
 
-        private void btnUpdate_Click(object sender, RoutedEventArgs e)
+        private async void btnUpdate_Click(object sender, RoutedEventArgs e)
         {
             try
             {
                 DataRowView dataRow = (DataRowView)dataGridPoi.SelectedItem;
-                swid =  Convert.ToInt32(dataRow.Row.ItemArray[0]);
-                swName = dataRow.Row.ItemArray[1].ToString();
-                description = dataRow.Row.ItemArray[2].ToString();
+                swid =  Convert.ToInt32(dataRow.Row.ItemArray[1]);
+                swName = dataRow.Row.ItemArray[2].ToString();
+                description = dataRow.Row.ItemArray[3].ToString();
 
                 box = new DialogBox();
                 box.UpdateDescription(swid, swName, description);
                 box.Show();
+
+                while(box.IsVisible) {
+                    await Task.Delay(500);
+                }
 
                 StadplanverwaltungManager.GetSehenswuerdigkeiten(dataGridPoi);
             }
@@ -79,7 +90,7 @@ namespace Stadtplanverwaltung
             }   
         }
 
-        private void btnDelete_Click(object sender, RoutedEventArgs e)
+        private async void btnDelete_Click(object sender, RoutedEventArgs e)
         {
             try
             {
@@ -87,6 +98,12 @@ namespace Stadtplanverwaltung
                 swid = Convert.ToInt32(dataRow.Row.ItemArray[0]);
 
                 StadplanverwaltungManager.DeleteSehenswurdigkeit(swid);
+
+                while (box.IsVisible)
+                {
+                    await Task.Delay(500);
+                }
+
                 StadplanverwaltungManager.GetSehenswuerdigkeiten(dataGridPoi);
             }
             catch (Exception ex)
@@ -103,7 +120,7 @@ namespace Stadtplanverwaltung
                            + "You can do the following things:\n "
                            + "1. Adding a point of interest by clicking on the map and add a description and name to it\n"
                            + "2. Selecting an existing point of interest from the Data Grid and changing the description\n"
-                           + "3. Deleting an existing point of interest from the Data Grid and deleting it\n");
+                           + "3. Deleting an existing point of interest from the Data Grid\n");
             }
             catch (Exception ex)
             {

@@ -37,7 +37,6 @@ namespace Stadtplanverwaltung.Controller
                 {
                     AdminStadtplanverwaltung adminS = new AdminStadtplanverwaltung();
                     adminS.Show();
-                    i = dt.Rows.Count;
                     Console.WriteLine("Successfully logged into the Database");
                 }
 

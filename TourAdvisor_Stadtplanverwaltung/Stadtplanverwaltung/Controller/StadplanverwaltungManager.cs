@@ -36,7 +36,7 @@ namespace Stadtplanverwaltung.Controller
             oledbAdapter.Fill(ds);
             oledbAdapter.Dispose();
 
-            for (int i = 0; i <= ds.Tables[0].Rows.Count; i++)
+            for (int i = 0; i < ds.Tables[0].Rows.Count-1; i++)
             {
                 grid.ItemsSource = ds.Tables[0].DefaultView;
             }
@@ -106,15 +106,17 @@ namespace Stadtplanverwaltung.Controller
             Console.WriteLine("Sehenswuerdigkeiten wurden gezeichnet!");
         }
 
-        public async static void AddSehenswuerdigkeit(string name, string info, double coordinateX, double coordinateY)
+        public static async void AddSehenswuerdigkeit(string name, string info, double coordinateX, double coordinateY)
         {
             sql = "begin addSehenswuerdigkeit('" + name + "', '" + info + "', " + coordinateX + "," + coordinateY + "," + aid + "); end;";
 
             oledbAdapter = new OleDbDataAdapter(sql, dc.GetConnectionString());
             ds.Clear();
             oledbAdapter.Fill(ds);
-            oledbAdapter.Dispose();
             await Task.Delay(1000);
+            oledbAdapter.Dispose();
+           
+            
             Console.WriteLine("Sehenswuerdigkeit " + name + " added");
         }
 
