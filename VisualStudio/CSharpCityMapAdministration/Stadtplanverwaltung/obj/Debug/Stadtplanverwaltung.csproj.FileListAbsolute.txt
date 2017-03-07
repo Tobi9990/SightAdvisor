@@ -1,0 +1,35 @@
+C:\Users\schueler\Documents\Visual Studio 2012\Projects\5AHIFS\Stadtplanverwaltung\Stadtplanverwaltung\bin\Debug\Stadtplanverwaltung.exe.config
+C:\Users\schueler\Documents\Visual Studio 2012\Projects\5AHIFS\Stadtplanverwaltung\Stadtplanverwaltung\bin\Debug\Stadtplanverwaltung.exe
+C:\Users\schueler\Documents\Visual Studio 2012\Projects\5AHIFS\Stadtplanverwaltung\Stadtplanverwaltung\bin\Debug\Stadtplanverwaltung.pdb
+C:\Users\schueler\Documents\Visual Studio 2012\Projects\5AHIFS\Stadtplanverwaltung\Stadtplanverwaltung\obj\Debug\Stadtplanverwaltung.csprojResolveAssemblyReference.cache
+C:\Users\schueler\Documents\Visual Studio 2012\Projects\5AHIFS\Stadtplanverwaltung\Stadtplanverwaltung\obj\Debug\MainWindow.baml
+C:\Users\schueler\Documents\Visual Studio 2012\Projects\5AHIFS\Stadtplanverwaltung\Stadtplanverwaltung\obj\Debug\MainWindow.g.cs
+C:\Users\schueler\Documents\Visual Studio 2012\Projects\5AHIFS\Stadtplanverwaltung\Stadtplanverwaltung\obj\Debug\App.g.cs
+C:\Users\schueler\Documents\Visual Studio 2012\Projects\5AHIFS\Stadtplanverwaltung\Stadtplanverwaltung\obj\Debug\Stadtplanverwaltung_MarkupCompile.cache
+C:\Users\schueler\Documents\Visual Studio 2012\Projects\5AHIFS\Stadtplanverwaltung\Stadtplanverwaltung\obj\Debug\Stadtplanverwaltung.g.resources
+C:\Users\schueler\Documents\Visual Studio 2012\Projects\5AHIFS\Stadtplanverwaltung\Stadtplanverwaltung\obj\Debug\Stadtplanverwaltung.Properties.Resources.resources
+C:\Users\schueler\Documents\Visual Studio 2012\Projects\5AHIFS\Stadtplanverwaltung\Stadtplanverwaltung\obj\Debug\Stadtplanverwaltung.csproj.GenerateResource.Cache
+C:\Users\schueler\Documents\Visual Studio 2012\Projects\5AHIFS\Stadtplanverwaltung\Stadtplanverwaltung\obj\Debug\Stadtplanverwaltung.exe
+C:\Users\schueler\Documents\Visual Studio 2012\Projects\5AHIFS\Stadtplanverwaltung\Stadtplanverwaltung\obj\Debug\Stadtplanverwaltung.pdb
+C:\Users\schueler\Documents\Visual Studio 2012\Projects\5AHIFS\Stadtplanverwaltung\Stadtplanverwaltung\obj\Debug\DialogBox.baml
+C:\Users\schueler\Documents\Visual Studio 2012\Projects\5AHIFS\Stadtplanverwaltung\Stadtplanverwaltung\obj\Debug\DialogBox.g.cs
+C:\Users\schueler\Documents\Visual Studio 2012\Projects\5AHIFS\TourAdvisor_Stadtplanverwaltung\Stadtplanverwaltung\bin\Debug\Stadtplanverwaltung.exe.config
+C:\Users\schueler\Documents\Visual Studio 2012\Projects\5AHIFS\TourAdvisor_Stadtplanverwaltung\Stadtplanverwaltung\obj\Debug\Stadtplanverwaltung.exe
+C:\Users\schueler\Documents\Visual Studio 2012\Projects\5AHIFS\TourAdvisor_Stadtplanverwaltung\Stadtplanverwaltung\obj\Debug\Stadtplanverwaltung.pdb
+C:\Users\schueler\Documents\Visual Studio 2012\Projects\5AHIFS\TourAdvisor_Stadtplanverwaltung\Stadtplanverwaltung\bin\Debug\Stadtplanverwaltung.exe
+C:\Users\schueler\Documents\Visual Studio 2012\Projects\5AHIFS\TourAdvisor_Stadtplanverwaltung\Stadtplanverwaltung\bin\Debug\Stadtplanverwaltung.pdb
+C:\Users\schueler\Documents\Visual Studio 2012\Projects\5AHIFS\TourAdvisor_Stadtplanverwaltung\Stadtplanverwaltung\obj\Debug\Stadtplanverwaltung.csprojResolveAssemblyReference.cache
+C:\Users\schueler\Documents\Visual Studio 2012\Projects\5AHIFS\TourAdvisor_Stadtplanverwaltung\Stadtplanverwaltung\obj\Debug\App.g.cs
+C:\Users\schueler\Documents\Visual Studio 2012\Projects\5AHIFS\TourAdvisor_Stadtplanverwaltung\Stadtplanverwaltung\obj\Debug\Stadtplanverwaltung_MarkupCompile.cache
+C:\Users\schueler\Documents\Visual Studio 2012\Projects\5AHIFS\TourAdvisor_Stadtplanverwaltung\Stadtplanverwaltung\obj\Debug\Stadtplanverwaltung.g.resources
+C:\Users\schueler\Documents\Visual Studio 2012\Projects\5AHIFS\TourAdvisor_Stadtplanverwaltung\Stadtplanverwaltung\obj\Debug\Stadtplanverwaltung.Properties.Resources.resources
+C:\Users\schueler\Documents\Visual Studio 2012\Projects\5AHIFS\TourAdvisor_Stadtplanverwaltung\Stadtplanverwaltung\obj\Debug\Stadtplanverwaltung.csproj.GenerateResource.Cache
+C:\Users\schueler\Documents\Visual Studio 2012\Projects\5AHIFS\TourAdvisor_Stadtplanverwaltung\Stadtplanverwaltung\obj\Debug\MainWindow.baml
+C:\Users\schueler\Documents\Visual Studio 2012\Projects\5AHIFS\TourAdvisor_Stadtplanverwaltung\Stadtplanverwaltung\obj\Debug\MainWindow.g.cs
+C:\Users\schueler\Documents\Visual Studio 2012\Projects\5AHIFS\TourAdvisor_Stadtplanverwaltung\Stadtplanverwaltung\obj\Debug\Stadtplanverwaltung.baml
+C:\Users\schueler\Documents\Visual Studio 2012\Projects\5AHIFS\TourAdvisor_Stadtplanverwaltung\Stadtplanverwaltung\obj\Debug\Stadtplanverwaltung.g.cs
+C:\Users\schueler\Documents\Visual Studio 2012\Projects\5AHIFS\TourAdvisor_Stadtplanverwaltung\Stadtplanverwaltung\obj\Debug\PoiDialogBox.baml
+C:\Users\schueler\Documents\Visual Studio 2012\Projects\5AHIFS\TourAdvisor_Stadtplanverwaltung\Stadtplanverwaltung\obj\Debug\PoiDialogBox.g.cs
+C:\Users\TobiasEgger\Documents\GitHub\TourAdvisor\TourAdvisor_Stadtplanverwaltung\Stadtplanverwaltung\bin\Debug\Stadtplanverwaltung.exe.config
+C:\Users\TobiasEgger\Documents\GitHub\TourAdvisor\TourAdvisor_Stadtplanverwaltung\Stadtplanverwaltung\obj\Debug\Stadtplanverwaltung.exe
+C:\Users\TobiasEgger\Documents\GitHub\TourAdvisor\TourAdvisor_Stadtplanverwaltung\Stadtplanverwaltung\obj\Debug\Stadtplanverwaltung.pdb
